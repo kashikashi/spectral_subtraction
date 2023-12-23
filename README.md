@@ -34,7 +34,7 @@ Usage
 
 The script can be executed from the command line in the following format:
 
-    python spectral_subtraction.py input.wav output.wav --noise_reduction 0.003 --n_iterations 2
+    python spectral_subtraction.py input.wav output.wav --noise_estimation_duration 1
 
 Where:
 - `input.wav` is the path to the WAV file to be processed.
